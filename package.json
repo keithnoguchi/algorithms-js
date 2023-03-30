@@ -1,0 +1,10 @@
+{
+	"name": "algorithms-js",
+	"version": "0.0.1",
+	"description": "JavaScript Algorithms and Data Structures",
+	"repository": "https://github.com/keithnoguchi/algorithms-js",
+	"author": "Keith Noguchi <keith@noguchi.us>",
+	"license": "MIT",
+	"private": true,
+	"workspaces": []
+}
