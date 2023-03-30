@@ -21,6 +21,16 @@ jobs:
       - name: Check out the repository
         uses: actions/checkout@v3
       - name: Install dependencies
-        run: yarn
+        run: yarn -A
       - name: Run lint
         run: yarn lint
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v3
+      - name: Install dependencies
+        run: yarn -A
+      - name: Run test
+        run: yarn workspaces run test
