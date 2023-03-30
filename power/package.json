@@ -3,5 +3,8 @@
 	"version": "0.0.1",
 	"description": "A power function",
 	"main": "src/main.js",
+	"scripts": {
+		"test": "node src/main.js"
+	},
 	"license": "MIT"
 }

@@ -8,4 +8,4 @@ const power = function (base, exponent) {
 	return result;
 };
 
-console.assert(power(2, 10) == 1023, 'power(2, 10)');
+if (power(2, 10) != 1024) process.exit(1);
