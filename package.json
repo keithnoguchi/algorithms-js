@@ -6,7 +6,9 @@
 	"author": "Keith Noguchi <keith@noguchi.us>",
 	"license": "MIT",
 	"private": true,
-	"workspaces": [],
+	"workspaces": [
+		"power"
+	],
 	"scripts": {
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"fmt": "prettier --plugin-search-dir . --write ."

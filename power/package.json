@@ -1,0 +1,7 @@
+{
+	"name": "power",
+	"version": "0.0.1",
+	"description": "A power function",
+	"main": "src/main.js",
+	"license": "MIT"
+}
